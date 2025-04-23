@@ -1,26 +1,23 @@
+---
 images:
-  - url: "/assets/images/default-apples.webp"
-    alt: "Jabuke"
-  - url: "/assets/images/default-lettuce.webp"
-    alt: "Zelena salata"
-  - url: "/assets/images/default-tomato_juice.webp"
-    alt: "Mleveni paradajz"
-address: Ulica Poljoprivrednika 12, Beograd, Srbija
-phone: +381 64 123 4567
-email: info@poljoprivreda.rs
-working_hours:
-  - "Ponedeljak - Petak: 08:00 - 18:00"
-  - "Subota: 08:00 - 14:00"
-  - "Nedelja: Zatvoreno"
-
+- url: assets/images/mladi krompis spakovan.jpg
+  alt: Mladi krompir
+- url: assets/images/kupus.jpg
+  alt: Kupus
+- url: assets/images/kupus kutija.jpg
+  alt: Kupus u kutiji
+address: Okolina Leskovca
+phone: '0645133152'
+email: ''
+working_hours: []
 _schema:
   images:
-    - url:
-        type: image_field
-        label: Slika u slajderu
-      alt:
-        type: text_field
-        label: Alt za SEO
+  - url:
+      type: image_field
+      label: Slika u slajderu
+    alt:
+      type: text_field
+      label: Alt za SEO
   address:
     type: text_field
     label: Adresa
@@ -34,5 +31,5 @@ _schema:
     type: text_field
     label: Imejl
   working_hours:
-    - type: text_field
-      label: Radno vreme
+  - type: text_field
+    label: Radno vreme
